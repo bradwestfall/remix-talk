@@ -1,0 +1,32 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Shoes",
+      "image": "🥾"
+    },
+    {
+      "id": 2,
+      "name": "Car",
+      "image": "🚙"
+    },
+    {
+      "id": 3,
+      "name": "Basketball",
+      "image": "🏀"
+    },
+    {
+      "id": 4,
+      "name": "Camera",
+      "image": "📷"
+    }
+  ],
+  "cart": [
+    {
+      "userId": 1,
+      "productId": 1,
+      "quantity": 1,
+      "id": 1
+    }
+  ]
+}

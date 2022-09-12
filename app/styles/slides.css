@@ -1,0 +1,49 @@
+.slides .primary-nav {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 1em;
+  opacity: 0;
+  transition: opacity 0.5s;
+  display: flex;
+  gap: 1em;
+}
+
+.slides .primary-nav:hover {
+  opacity: 1;
+}
+
+.slides .primary-nav a {
+  all: unset;
+  font-size: 2em;
+  padding: 0;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.slides .slide {
+  background-image: url('/bg.gif');
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+}
+
+.slides .slide.svg {
+  display: flex;
+}
+
+.slides .slide.svg img[src$='.svg'] {
+  margin: auto;
+  object-fit: contain;
+  min-width: 100vw;
+  display: block;
+}
+
+.slides .slide.svg img[src$='.png'] {
+  margin: auto;
+  object-fit: contain;
+  display: block;
+}
