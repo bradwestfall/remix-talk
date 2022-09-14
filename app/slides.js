@@ -1,5 +1,4 @@
 const slides = [
-  '/slides/scam.png',
   '/slides/intro.svg',
   '/slides/ssr-spa-next.svg',
   '/slides/ssr-spa-next-2.svg',
@@ -47,23 +46,26 @@ const slides = [
   '/slides/tradeoffs.svg',
   '/slides/google-seo.svg',
 
-  // Right here might be a good time to have a slide
-  // where we talk about how Front-end state, as nice
-  // as we thought that was, was in fact a copy
-  // of the real source of truth, the database
-
-  // // React's UI->fn(s)
-  // '/slides/ui-state.svg',
-  // '/slides/ui-state-2.svg',
+  // React's UI->fn(s) (again)
+  '/slides/ui-state.svg',
+  '/slides/source-of-truth.svg',
+  '/slides/source-of-truth-2.svg',
+  '/slides/spa-state.svg',
+  '/slides/spa-state-2.svg',
+  '/slides/spa-state-3.svg',
+  '/slides/spa-state-4.svg',
 
   // SSR
   '/slides/ssr-react.svg',
   '/slides/ssr-react-2.svg',
   '/slides/ssr-react-3.svg',
+  '/slides/ssr-react-3a.svg',
+  '/slides/ssr-react-3b.svg',
+  '/slides/ssr-react-3a.svg',
   '/slides/ssr-react-4.svg',
   '/slides/ssr-react-5.svg',
-  '/slides/ssr-react-6.svg',
 
+  // Remix
   '/slides/remix-start.svg',
   '/slides/remix.svg',
   '/slides/remix-2.svg',
@@ -76,15 +78,22 @@ const slides = [
   '/slides/remix-7a.svg',
   '/slides/remix-8.svg',
   '/slides/remix-8b.svg',
-  '/slides/remix-8c.svg',
   '/slides/remix-points.svg',
   '/slides/remix-8d.svg',
-  '/slides/remix-8e.svg',
 
-  '/slides/cache.svg',
-  '/slides/cache-2.svg',
-  '/slides/cache-3.svg',
-  '/slides/cache-4.svg',
+  '/slides/cache-none.svg',
+  '/slides/cache-cdns.svg',
+  '/slides/cache-swr.svg',
+  '/slides/cache-swr-2.svg',
+  '/slides/cache-swr-3.svg',
+  '/slides/cache-swr-4.svg',
+  '/slides/cache-swr-5.svg',
+  '/slides/cache-swr-6.svg',
+  '/slides/cache-swr-7.svg',
+  '/slides/cache-swr-8.svg',
+  '/slides/cache-swr-9.svg',
+
+  '/slides/remix-8e.svg',
 ]
 
 export default slides
